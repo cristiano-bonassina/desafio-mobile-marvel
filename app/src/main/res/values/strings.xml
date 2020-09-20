@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Marvel</string>
+    <string name="activity_characters_title">Marvel Characters</string>
+    <string name="exit">Press again to exit</string>
+    <string name="startup_error">Can\'t start the app</string>
+    <string name="error_fetching_characters">Can\'t fetch characters</string>
+    <string name="error_fetching_comics">Can\'t fetch comics</string>
+    <string name="marvel_api_public_key">9dc6c4707cf3bafef728c39a876cc5a3</string>
+    <string name="marvel_api_private_key">d9ce634ed2c411975dfccce72bf0dbfb3cfacbcd</string>
+    <string name="marvel_api_url">https://gateway.marvel.com</string>
+    <string name="search_comics">Search comics</string>
+    <string name="search_characters">Search characters</string>
+</resources>

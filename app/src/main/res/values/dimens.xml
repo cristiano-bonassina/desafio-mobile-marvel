@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="app_bar_height">180dp</dimen>
+    <integer name="grid_columns">2</integer>
+    <integer name="grid_item_space">6</integer>
+</resources>
