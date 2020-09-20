@@ -21,8 +21,8 @@ class ComicDataSource(private val marvelApi: MarvelApi, private val characterId:
             override fun onResponse(call: Call<ApiResponse<Pagination<Comic>>>, response: Response<ApiResponse<Pagination<Comic>>>) {
                 loading.postValue(false)
                 val responseData = response.body()?.data ?: return
-                val characters = responseData.results.toMutableList()
-                callback.onResult(characters, 0, responseData.count)
+                val comics = responseData.results.toMutableList()
+                callback.onResult(comics, 0, responseData.count)
             }
 
             override fun onFailure(call: Call<ApiResponse<Pagination<Comic>>>, t: Throwable) {
@@ -42,8 +42,8 @@ class ComicDataSource(private val marvelApi: MarvelApi, private val characterId:
             override fun onResponse(call: Call<ApiResponse<Pagination<Comic>>>, response: Response<ApiResponse<Pagination<Comic>>>) {
                 loading.postValue(false)
                 val responseData = response.body()?.data ?: return
-                val characters = responseData.results.toMutableList()
-                callback.onResult(characters, responseData.offset + responseData.count)
+                val comics = responseData.results.toMutableList()
+                callback.onResult(comics, responseData.offset + responseData.count)
             }
 
             override fun onFailure(call: Call<ApiResponse<Pagination<Comic>>>, t: Throwable) {
