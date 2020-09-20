@@ -48,7 +48,7 @@ class ComicsActivity : DaggerAppCompatActivity(), SearchView.OnQueryTextListener
 
         this.character = character
 
-        findViewById<CollapsingToolbarLayout>(R.id.toolbar_layout).title = character.name.toUpperCase()
+        toolbarLayout.title = character.name.toUpperCase()
 
         val thumbnailUrl = character.thumbnail.getUrl()
         Glide.with(this).load(thumbnailUrl).into(characterThumbnail)
