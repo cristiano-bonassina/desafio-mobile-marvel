@@ -1,4 +1,4 @@
-package com.marvel.app.api
+package com.marvel.app.data
 
 import com.marvel.app.extensions.toMD5
 import okhttp3.HttpUrl

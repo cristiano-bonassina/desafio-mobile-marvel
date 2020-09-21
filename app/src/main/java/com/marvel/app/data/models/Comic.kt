@@ -1,4 +1,4 @@
-package com.marvel.app.data
+package com.marvel.app.data.models
 
 import androidx.recyclerview.widget.DiffUtil
 

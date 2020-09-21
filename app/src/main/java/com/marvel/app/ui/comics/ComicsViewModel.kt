@@ -5,9 +5,9 @@ import androidx.lifecycle.ViewModel
 import androidx.paging.DataSource
 import androidx.paging.LivePagedListBuilder
 import androidx.paging.PagedList
-import com.marvel.app.api.ComicDataSource
-import com.marvel.app.api.MarvelApi
-import com.marvel.app.data.Comic
+import com.marvel.app.data.ComicDataSource
+import com.marvel.app.data.MarvelApi
+import com.marvel.app.data.models.Comic
 
 class ComicsViewModel(private val marvelApi: MarvelApi) : ViewModel() {
 

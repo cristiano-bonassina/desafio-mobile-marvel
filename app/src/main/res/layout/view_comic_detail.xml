@@ -10,7 +10,7 @@
 
         <variable
             name="viewModel"
-            type="com.marvel.app.data.Comic" />
+            type="com.marvel.app.data.models.Comic" />
     </data>
 
     <LinearLayout

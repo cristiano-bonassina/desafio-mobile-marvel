@@ -11,7 +11,7 @@ import androidx.core.app.ActivityOptionsCompat
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.GridLayoutManager
 import com.marvel.app.R
-import com.marvel.app.data.Character
+import com.marvel.app.data.models.Character
 import com.marvel.app.ui.comics.ComicsActivity
 import com.marvel.app.ui.widget.GridSpacingItemDecoration
 import dagger.android.support.DaggerAppCompatActivity

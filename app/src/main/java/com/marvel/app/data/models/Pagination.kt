@@ -1,4 +1,4 @@
-package com.marvel.app.api.data
+package com.marvel.app.data.models
 
 data class Pagination<T>(
     val count: Int,

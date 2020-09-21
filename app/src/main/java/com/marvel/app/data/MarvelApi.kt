@@ -1,9 +1,9 @@
-package com.marvel.app.api
+package com.marvel.app.data
 
-import com.marvel.app.api.data.ApiResponse
-import com.marvel.app.api.data.Pagination
-import com.marvel.app.data.Character
-import com.marvel.app.data.Comic
+import com.marvel.app.data.models.ApiResponse
+import com.marvel.app.data.models.Pagination
+import com.marvel.app.data.models.Character
+import com.marvel.app.data.models.Comic
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Path

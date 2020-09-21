@@ -2,8 +2,8 @@ package com.marvel.app.di.modules
 
 import android.content.Context
 import com.marvel.app.R
-import com.marvel.app.api.MarvelApi
-import com.marvel.app.api.MarvelApiInterceptor
+import com.marvel.app.data.MarvelApi
+import com.marvel.app.data.MarvelApiInterceptor
 import com.marvel.app.extensions.create
 import dagger.Module
 import dagger.Provides

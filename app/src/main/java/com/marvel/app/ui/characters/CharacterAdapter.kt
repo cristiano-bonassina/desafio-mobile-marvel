@@ -10,7 +10,7 @@ import androidx.paging.PagedListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.marvel.app.R
-import com.marvel.app.data.Character
+import com.marvel.app.data.models.Character
 import com.marvel.app.extensions.getUrl
 
 class CharacterAdapter(private val context: Context) : PagedListAdapter<Character, CharacterAdapter.ViewHolder>(Character.CALLBACK) {

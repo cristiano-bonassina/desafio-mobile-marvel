@@ -9,11 +9,10 @@ import androidx.appcompat.widget.SearchView
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.GridLayoutManager
 import com.bumptech.glide.Glide
-import com.google.android.material.appbar.CollapsingToolbarLayout
 import com.google.android.material.bottomsheet.BottomSheetDialog
 import com.marvel.app.R
-import com.marvel.app.data.Character
-import com.marvel.app.data.Comic
+import com.marvel.app.data.models.Character
+import com.marvel.app.data.models.Comic
 import com.marvel.app.extensions.getUrl
 import com.marvel.app.ui.widget.GridSpacingItemDecoration
 import dagger.android.support.DaggerAppCompatActivity
