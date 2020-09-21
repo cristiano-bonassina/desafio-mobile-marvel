@@ -28,7 +28,7 @@ class ComicsActivity : DaggerAppCompatActivity(), SearchView.OnQueryTextListener
     @Inject
     lateinit var comicsViewModel: ComicsViewModel
 
-    lateinit var character: Character
+    private lateinit var character: Character
 
     private var searchComicsJob: Job? = null
 
