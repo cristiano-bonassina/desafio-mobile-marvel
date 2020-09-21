@@ -9,13 +9,13 @@ import dagger.android.ContributesAndroidInjector
 @Module
 abstract class ActivityBuilder {
 
-    @ContributesAndroidInjector(modules = [])
+    @ContributesAndroidInjector
     abstract fun bindComicActivity(): ComicsActivity
 
-    @ContributesAndroidInjector(modules = [])
+    @ContributesAndroidInjector
     abstract fun bindLauncherActivity(): SplashActivity
 
-    @ContributesAndroidInjector(modules = [])
+    @ContributesAndroidInjector
     abstract fun bindMainActivity(): CharactersActivity
 
 }
